@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hurtownia - finanse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <h1>HURTOWNIA - program księgowy</h1>
+    <h2>Finanse</h2>
+
+    <div class="container mt-3">
+
+        <a href="/" class = "btn btn-primary">Strona główna</a>
+        <a href="/Finanse"class = "btn btn-primary">Finanse</a>
+        <a href="/Magazyn"class = "btn btn-primary">Magazyn</a>
+        <a href="/Sprzedaz"class = "btn btn-primary">Sprzedaż towarów</a>
+        <a href="/Zakup"class = "btn btn-primary">Zakup towarów</a>
+        <a href="/Historia"class = "btn btn-primary">Historia</a>
+        <a href="/Wyjscie"class = "btn btn-danger">Wyjście z programu</a>
+
+    </div>
+
+    <p>  Aktualne saldo: {{ context.saldo }} </p>
+    <p>  Aktualny stan konta: {{ context.konto }}  </p>
+    <p>  Aktualne zadłużenie: {{ context.zadluzenie }}  </p>
+
+    <form class="container mt-5" action="/Finanse" method="POST">
+
+        <div class="mb-3">
+        <label for="kwota_wplaty" class="mb-3">WPŁATA ŚRODKÓW NA KONTO</label>
+        <input type="number" placeholder="Wpisz kwotę" class="form-control" id="kwota_wplaty" name="kwota_wplaty">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Potwierdź</button>
+
+
+    </form>
+
+        </p>
+
+    <form class="container mt-5" action="/Finanse" method="POST">
+
+        <div class="mb-3">
+        <label for="kwota_wyplaty" class="mb-3">WYPŁATA ŚRODKÓW Z KONTA</label>
+        <input type="number" placeholder="Wpisz kwotę" class="form-control" id="kwota_wyplaty" name="kwota_wyplaty">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Potwierdź</button>
+
+
+    </form>
+
+
+        </p>
+
+    <form class="container mt-5" action="/Finanse" method="POST">
+
+        <div class="mb-3">
+        <label for="nowy_kredyt" class="mb-3">Zacięgniecie kredytu</label>
+        <input type="number" placeholder="Wpisz kwotę zaciągniętego kredytu" class="form-control" id="nowy_kredyt" name="nowy_kredyt">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Potwierdź</button>
+
+
+    </form>
+
+         </p>
+
+    <form class="container mt-5" action="/Finanse" method="POST">
+
+        <div class="mb-3">
+        <label for="spłata_kredytu" class="mb-3">Spłata kredytu</label>
+        <input type="number" placeholder="Wpisz kwotę spłaconego kredytu" class="form-control" id="spłata_kredytu" name="spłata_kredytu">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Potwierdź</button>
+
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+
+</html>
+
