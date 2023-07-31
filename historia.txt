@@ -1,0 +1,9 @@
+Wprowadzono do magazynu maliny, w ilosci 9999.0, po cenie 19.0 zl
+Wprowadzono do magazynu rowery, w ilosci 9.0, po cenie 1999.0 zl
+Wplata wlasna na konto: 1000000.0 zl
+Zaciagniety kredyt w wysokosci: 100000.0 zl
+Wp³ata na konto: 30000.0 z³
+Do magazynu dodano Kury, w iloœci 100.0, w cenie 39.0 z³ o wartoœci 3900.0
+Do magazynu dodano Samolot, w iloœci 1.0, w cenie 10000.0 z³ o wartoœci 10000.0
+Do magazynu dodano Fura, w iloœci 1.0, w cenie 1000.0 z³ o wartoœci 1000.0
+Do magazynu dodano kury, w iloœci 1.0, w cenie 1.0 z³ o wartoœci 1.0
