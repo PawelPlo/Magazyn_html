@@ -1,4 +1,0 @@
-Wprowadzono do magazynu maliny, w ilosci 9999.0, po cenie 19.0 zl
-Wprowadzono do magazynu rowery, w ilosci 9.0, po cenie 1999.0 zl
-Wplata wlasna na konto: 1000000.0 zl
-Zaciagniety kredyt w wysokosci: 100000.0 zl
