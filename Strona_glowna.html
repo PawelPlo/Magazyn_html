@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hurtownia - strona główna</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+ <body>
+
+ <div>
+     <h1>HURTOWNIA - program księgowy</h1>
+     <h2>Strona główna</h2>
+     </p>
+     </div>
+
+ <div class="container mt-3">
+
+        <a href="/" class = "btn btn-primary">Strona główna</a>
+        <a href="/Finanse"class = "btn btn-primary">Finanse</a>
+        <a href="/Magazyn"class = "btn btn-primary">Magazyn</a>
+        <a href="/Sprzedaz"class = "btn btn-primary">Sprzedaż towarów</a>
+        <a href="/Zakup"class = "btn btn-primary">Zakup towarów</a>
+        <a href="/Historia"class = "btn btn-primary">Historia</a>
+
+
+ </div>
+
+  <div>
+    <p>  Stan konta: {{ context.konto }}  </p>
+    <p>  Zadłużenie: {{ context.zadluzenie }}  </p>
+    <p>  Wartość zapasów: {{ context.wartosc_zapasow }}  </p>
+    <p>  Saldo: {{ context.saldo }}  </p>  </p>
+ </div>
+
+ </body>
+</html>
